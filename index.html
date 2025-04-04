@@ -6,10 +6,90 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+        height: 100%;
+        background: url("img/banner-2.jpg") no-repeat center center fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1.main {
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    /* Design_Technology */
+    .Design_Technology {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #h1_one {
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #p_one {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* cosas */
+    #h1_cosas {
+        font-size: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #s_cosas {
+        background-color: #24EDA4;
+    }
+    .cosas {
+        font-size: 35px;
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 5%;
+    }
+</style>
 <body>
-    <div id="main">
-        <p>Welcome to the creative <br>
-        after school</p>
+    <div class="main">
+        <h1 class="main">Welcome to the creative <br>
+        after school</h1>
     </div>
     <section id="s_Design_Technology" class>
         <div id="div_one" class=Design_Technology>
@@ -17,35 +97,63 @@
             <p id="p_one">Embark your kid into an inspirational journey of fun and discovery throught a hands-on approach</p>
         </div>
         <div id="div_two" class=Design_Technology>
-            <img src="/img/section-1.png">
+            <img src="img/section-1.png">
         </div>
     </section>
+    <h1 id="h1_cosas">Innovative programs for ages 6 to 13</h1>
     <section id="s_cosas">
-        <h1 id="d_cosas" class="cosas">Innovative programs for ages 6 to 13</h1>
         <div class="cosas">
             Robotics
-            <img src="/img/section-2-a.jpeg">
+            <img src="img/section-2-a.jpeg">
         </div>
         <div class="cosas">
             Robotics
-            <img src="/img/section-2-b.jpeg">
+            <img src="img/section-2-b.jpeg">
         </div>
         <div class="cosas">
             Robotics
-            <img src="/img/section-2-c.jpeg">
+            <img src="img/section-2-c.jpeg">
         </div>
         <div class="cosas">
             Robotics
-            <img src="/img/section-2-d.jpeg">
+            <img src="img/section-2-d.jpeg">
         </div>
     </section>
     <section id="s_creativity" class>
         <div id="div_three" class=Design_Technology>
-            <img src="/img/section-3.png">
+            <img src="img/section-3.png">
         </div>
         <div id="div_four" class=Design_Technology>
-            <h1 id="h1_one">Helps millions fall asleep every night</h1>
-            <p id="p_one">branding, design, mobile, product</p>
+            <h1 id="h1_one">Unlock your potencial in our Miami studio</h1>
+            <p id="p_one">Our new studio in Miami features a Tech Room, an Open Creative Gallery, and a Hangout Zone for parents or caregivers with plenty of room for social distancing</p>
+        </div>
+    </section>
+    <section id="s_cosas">
+        <img src="img/section-4-a.jpg">
+        <img src="img/section-4-b.jpg">
+        <img src="img/section-4-c.jpg">
+        <img src="img/section-4-d.jpg">
+    </section>
+    <div id="azul">
+        <h1>Come meet us. We would love to get to know you</h1>
+    </div>
+    <section id="s_footer">
+        <div id="d_five" class="footer">
+            <h1>@ Minds of tomorrow, LLC 2020</h1>
+        </div>
+
+        <div id="d_right" class="footer">
+            <div id="d_six" class="footer_right">
+                <h1>Facebook</h1>
+            </div>
+            <div id="d_seven" class="footer_right">
+                <h1>Our programs</h1>
+            </div>
+            <div id="d_eight" class="footer_right">
+                <h1>Instagram</h1>
+            </div>
+            <div id="d_nine" class="footer_right">
+                <h1>The Studio</h1>
         </div>
     </section>
 </body>
