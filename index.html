@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <style>
     html, body {
@@ -12,6 +15,12 @@
         padding: 0;
         height: 100%;
         width: 100%;
+    }
+    h1 , p {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
     }
     .main {
         width: 100%;
@@ -103,6 +112,46 @@
         height: auto;
         flex-basis: 25%;
     }
+    /* azul */
+    #azul {
+        background-color: #46A5FC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 35px;
+    }
+    /* footer */
+    #s_footer {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        background-color: black;
+        color: white;
+    }
+    .footer {
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-basis: 50%;
+    }
+    #d_right {
+        display: flex;
+        gap: 50%;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 700px) {
+        h1, p {
+            font-size: 110%;
+        }
+        section {
+            flex-direction: column;
+        }
+        .cosas {
+            flex-direction: row;
+        }
+    }
 </style>
 <body>
     <div class="main">
@@ -161,7 +210,7 @@
         </div>
     </section>
     <div id="azul">
-        <h1>Come meet us. We would love to get to know you</h1>
+        <h1>Come meet us. We would love to get <br> to know you</h1>
     </div>
     <section id="s_footer">
         <div id="d_five" class="footer">
