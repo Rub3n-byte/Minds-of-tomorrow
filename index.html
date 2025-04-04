@@ -9,165 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<style>
-    html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-    }
-    h1 , p {
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
-    }
-    .main {
-        width: 100%;
-        height: 100%;
-        background: url("img/banner-2.jpg") no-repeat center center fixed;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    h1.main {
-        font-size: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
-    img {
-        width: 100%;
-        height: auto;
-    }
-    section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-    }
-    /* Design_Technology */
-    .Design_Technology {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    #h1_one {
-        font-size: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #p_one {
-        font-size: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    /* cosas */
-    #h1_cosas {
-        font-size: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #s_cosas {
-        background-color: #24EDA4;
-    }
-    .cosas {
-        font-size: 35px;
-        width: 25%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 5%;
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-bottom: 5%;
-    }
-    /* creativity */
-    .creativity {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    /* fotos */
-    .fotos {
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-basis: 25%;
-    }
-    /* azul */
-    #azul {
-        background-color: #46A5FC;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 35px;
-    }
-    /* footer */
-    #s_footer {
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        background-color: black;
-        color: white;
-    }
-    .footer {
-        margin-top: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-        flex-basis: 50%;
-    }
-    #d_right {
-        display: flex;
-        gap: 50%;
-        flex-wrap: wrap;
-    }
-
-    @media (max-width: 700px) {
-        h1, p {
-            font-size: 110%;
-        }
-        section {
-            flex-direction: column;
-        }
-        #s_cosas {
-            display: flex;
-           flex-wrap: wrap;
-           justify-content: space-between;
-           flex-direction: row;
-        }
-        .cosas {
-            display: block;
-            margin: 0;
-            width: 50%;
-            height: 100%;
-            flex: 50%;
-        }
-    }
-</style>
 <body>
+    <!--Baner-->
     <div class="main">
         <h1 class="main">Welcome to the creative <br>
         after school</h1>
     </div>
+    <!--Texto + imagen 1-->
     <section id="s_Design_Technology" class>
         <div id="div_one" class=Design_Technology>
             <h1 id="h1_one">Our enrichment programs boost your kid to a brighter future</h1>
@@ -177,6 +25,7 @@
             <img src="img/section-1.png">
         </div>
     </section>
+    <!--Apartado verde con fotos y texto -->
     <h1 id="h1_cosas">Innovative programs for ages 6 to 13</h1>
     <section id="s_cosas">
         <div class="cosas">
@@ -196,6 +45,7 @@
             <img src="img/section-2-d.jpeg">
         </div>
     </section>
+    <!--Texto + imagen 2-->
     <section id="s_creativity">
         <div id="div_three" class=creativity>
             <img src="img/section-3.png">
@@ -205,6 +55,7 @@
             <p id="p_one">Our new studio in Miami features a Tech Room, an Open Creative Gallery, and a Hangout Zone for parents or caregivers with plenty of room for social distancing</p>
         </div>
     </section>
+    <!--Apartado con las 4 fotos sin separación-->
     <section id="s_fotos">
         <div class="fotos">
             <img src="img/section-4-a.jpg">
@@ -219,9 +70,11 @@
             <img src="img/section-4-d.jpg">
         </div>
     </section>
+    <!--Texto con fondo azul-->
     <div id="azul">
         <h1>Come meet us. We would love to get <br> to know you</h1>
     </div>
+    <!--Le he llamado footer pero es lo negro del final-->
     <section id="s_footer">
         <div id="d_five" class="footer">
             <h1>@ Minds of tomorrow, LLC 2020</h1>
